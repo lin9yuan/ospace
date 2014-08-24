@@ -1,0 +1,12 @@
+<footer id="footer">
+  <% if (theme.sidebar === 'bottom'){ %>
+    <%- partial('_partial/sidebar') %>
+  <% } %>
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="tencent://message/?uin=34645417&amp;Site=Qme&amp;Menu=yes">
+      <img style="border:0px;" src=http://wpa.qq.com/pa?p=1:34645417:2></a>
+    </div>
+  </div>
+</footer>
