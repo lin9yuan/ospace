@@ -26,16 +26,17 @@
   margin: 0 12px 1em
 
 .article-header
-  padding: article-padding article-padding 0
+  padding: 20px 30px 20px;
+  background-color: #ccc;
 
 .article-title
   text-decoration: none
   font-size: 2em
   font-weight: bold
-  color: color-default
+  color: #000000
   line-height: line-height-title
   transition: color 0.2s
-  a&:hover
+  a &:hover
     color: color-link
 
 .article-entry
@@ -110,7 +111,7 @@
   // http://webdesignerwall.com/tutorials/css-elastic-videos
   .video-container
     position: relative
-    padding-top: (9 / 16 * 100)% // 16:9 ratio
+    padding-top: (9 / 16 * 100) % // 16:9 ratio
     height: 0
     overflow: hidden
     iframe, object, embed
@@ -273,7 +274,7 @@ $article-share-link
 .article-share-twitter
   @extend $article-share-link
   &:before
-    content: "\f099"
+  content: "\f099"
   &:hover
     background: color-twitter
     text-shadow: 0 1px darken(color-twitter, 20%)
@@ -281,7 +282,7 @@ $article-share-link
 .article-share-facebook
   @extend $article-share-link
   &:before
-    content: "\f09a"
+  content: "\f09a"
   &:hover
     background: color-facebook
     text-shadow: 0 1px darken(color-facebook, 20%)
@@ -289,7 +290,7 @@ $article-share-link
 .article-share-pinterest
   @extend $article-share-link
   &:before
-    content: "\f0d2"
+  content: "\f0d2"
   &:hover
     background: color-pinterest
     text-shadow: 0 1px darken(color-pinterest, 20%)
@@ -297,7 +298,7 @@ $article-share-link
 .article-share-google
   @extend $article-share-link
   &:before
-    content: "\f0d5"
+  content: "\f0d5"
   &:hover
     background: color-google
     text-shadow: 0 1px darken(color-google, 20%)
@@ -322,6 +323,7 @@ $article-share-link
     display: block
     max-width: 100%
     margin: 0 auto
+
 /*
 $article-gallery-ctrl
   position: absolute
