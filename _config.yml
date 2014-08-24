@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "Owen1_Space"
+title: "Owen Space"
 subtitle: "My world,My rule."
-description: "desc"
-author: "lin9yuan"
+description: "IT_技术_技术文章__lin9yuan.tk"
+author: "Owen.T.Mendel"
 email: 
 language: "zh-CN"
 
@@ -40,7 +40,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: IT
 category_map:
 tag_map:
 

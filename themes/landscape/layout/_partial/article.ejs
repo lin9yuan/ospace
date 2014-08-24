@@ -32,12 +32,18 @@
      	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
      	<a class="jiathis_counter_style"></a>
      </div>
+     <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1408848118386329" charset="utf-8"></script>
      <!-- JiaThis Button END -->
 
+      <div>
       <% if (post.comments && config.disqus_shortname){ %>
         <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">Comments</a>
       <% } %>
+      </div>
+
+       <div style="margin-left:120px;">
       <%- partial('post/tag') %>
+      </div>
     </footer>
   </div>
   <% if (!index){ %>
