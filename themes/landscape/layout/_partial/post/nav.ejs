@@ -1,8 +1,8 @@
 <% if (post.prev || post.next){ %>
-<nav id="article-nav">
+<nav id="article-nav" style="margin-top: 10px;margin-bottom: -30px;">
   <% if (post.prev){ %>
     <a href="<%- url_for(post.prev.path) %>" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">下一篇</strong>
+      <strong class="article-nav-caption">上一篇</strong>
       <div class="article-nav-title">
         <% if (post.prev.title){ %>
           <%= post.prev.title %>
@@ -14,7 +14,7 @@
   <% } %>
   <% if (post.next){ %>
     <a href="<%- url_for(post.next.path) %>" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">上一篇</strong>
+      <strong class="article-nav-caption">下一篇</strong>
       <div class="article-nav-title"><%= post.next.title %></div>
     </a>
   <% } %>
