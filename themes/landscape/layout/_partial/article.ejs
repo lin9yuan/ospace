@@ -20,6 +20,7 @@
         <% } %>
       <% } else { %>
         <%- post.content %>
+        本作品采用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议</a>进行许可。
       <% } %>
     </div>
     <footer class="article-footer">
@@ -34,12 +35,6 @@
      </div>
      <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1408848118386329" charset="utf-8"></script>
      <!-- JiaThis Button END -->
-
-      <div>
-      <% if (post.comments && config.disqus_shortname){ %>
-        <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">Comments</a>
-      <% } %>
-      </div>
 
        <div style="margin-left:120px;">
       <%- partial('post/tag') %>
