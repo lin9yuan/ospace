@@ -21,7 +21,7 @@ widgets:
 
 # Miscellaneous
 google_analytics:
-favicon: /img/favicon.ico
+favicon: /css/images/favicon.ico
 twitter:
 google_plus:
 fb_admins:
