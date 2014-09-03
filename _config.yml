@@ -1,14 +1,14 @@
 # Site
 title: "Owen Space"
 subtitle: "My world,My rule."
-description: "IT_æŠ€æœ¯_æŠ€æœ¯æ–‡ç« __lin9yuan.tk"
+description: "IT_æŠ?œ¯_æŠ?œ¯æ–‡ç« __IO97.com"
 author: "Owen.T.Mendel"
 email: 
 language: "zh-CN"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://lin9yuan.tk
+url: http://io97.com
 root: /
 permalink: :year/:month/:day/:title.html
 tag_dir: tags
