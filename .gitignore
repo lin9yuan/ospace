@@ -17,5 +17,6 @@ public/
 .idea/workspace.xml
 .idea/uiDesigner.xml
 *.md
-*.md
-*.md
+/.idea/
+/source/
+nginx/nginx.conf
