@@ -13,8 +13,8 @@ fancybox: true
 sidebar: right
 widgets:
 - tagcloud
-#- ad
-- category
+- ad
+#- category
 #- tag
 #- archive
 #- recent_posts
@@ -26,4 +26,3 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
-shit:
